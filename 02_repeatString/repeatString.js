@@ -2,10 +2,13 @@ const repeatString = function(value, times) {
   if (times < 0) {
     return 'ERROR';
   }
+
   let result = '';
-  for (i = 0; i < times; i++) {
+
+  for (let i = 0; i < times; i++) {
     result += value;
   }
+
   return result;
 };
 
